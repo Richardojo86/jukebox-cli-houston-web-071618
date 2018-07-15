@@ -51,4 +51,13 @@ def run
   help
   puts " Please enter a command: "
   user_input = gets.chomp
+  if user_input == "list"
+    list
+  elsif user_input == "play"
+    play
+  elsif user_input == "help"
+    help
+  else
+    exit_jukebox
+  end
 end
