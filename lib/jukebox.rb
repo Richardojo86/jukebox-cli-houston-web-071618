@@ -17,10 +17,11 @@ puts "I accept the following commands:
  - exit : exits this program"
 end
 
-def play
-end
-
-def list 
+def list(songs)
+  index = 1
+  songs.each_with_index do |index|
+    index += 1
+    puts "#"
 end
 
 def exit_jukebox
