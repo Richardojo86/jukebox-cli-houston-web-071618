@@ -30,11 +30,13 @@ def play(songs)
   user_input = gets.chomp
   
   numbers_in_song = []
-  songs.each_with_index do |index|
+  names_in_song = []
+  songs.each_with_index do |val, index|
     numbers_in_song << index
+    names_in_song << val
   end
   
-  if numbers_in_song.include?(user_input)
+  if numbers_in_song.include?(user_input) || names_in_song.include?(user_input)
 end
 
 def exit_jukebox
