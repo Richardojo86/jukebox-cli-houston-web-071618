@@ -37,6 +37,9 @@ def play(songs)
   end
   
   if numbers_in_song.include?(user_input) || names_in_song.include?(user_input)
+    puts "Playing #{user_input}"
+  else
+    
 end
 
 def exit_jukebox
