@@ -18,10 +18,10 @@ puts "I accept the following commands:
 end
 
 def list(songs)
-  index = 1
   songs.each_with_index do |val,index|
     index += 1
-    puts "#{index}.#{value}"
+    puts "#{index}. #{val}"
+  end
 end
 
 def exit_jukebox
