@@ -19,7 +19,7 @@ end
 
 def list(songs)
   index = 1
-  songs.each_with_index do |index|
+  songs.each_with_index do |index, value|
     index += 1
     puts "#"
 end
