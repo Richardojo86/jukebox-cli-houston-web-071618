@@ -25,8 +25,15 @@ def list(songs)
   end
 end
 
-def play
+def play(songs)
+  puts "Please enter a song name or number:"
+  user_input = gets.chomp
+  numbers_in_song = []
+  songs.each_with_index do |index|
+    numbers_in_song << index
+  end
   
+  if user_input == songs
 end
 
 def exit_jukebox
