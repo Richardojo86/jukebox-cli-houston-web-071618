@@ -33,7 +33,7 @@ def play(songs)
     numbers_in_song << index
   end
   
-  if numbers_in_song.include(user_input)
+  if numbers_in_song.include?(user_input)
 end
 
 def exit_jukebox
