@@ -18,5 +18,5 @@ end
 def list 
 end
 
-def exit
+def exit_jukebox
 end
