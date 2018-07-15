@@ -9,12 +9,13 @@ songs = [
   "Harry Chapin - Cats in the Cradle",
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
+
 def help
-puts "I accept the following commands:
- - help : displays this help message
- - list : displays a list of songs you can play
- - play : lets you choose a song to play
- - exit : exits this program"
+  puts "I accept the following commands:
+   - help : displays this help message
+   - list : displays a list of songs you can play
+   - play : lets you choose a song to play
+   - exit : exits this program"
 end
 
 def list(songs)
@@ -22,6 +23,10 @@ def list(songs)
     index += 1
     puts "#{index}. #{val}"
   end
+end
+
+def play
+  
 end
 
 def exit_jukebox
