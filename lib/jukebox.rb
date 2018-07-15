@@ -19,9 +19,9 @@ end
 
 def list(songs)
   index = 1
-  songs.each_with_index do |index, value|
+  songs.each_with_index do |val,index|
     index += 1
-    puts "#"
+    puts "#{index}.#{value}"
 end
 
 def exit_jukebox
