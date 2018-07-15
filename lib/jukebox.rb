@@ -28,6 +28,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.chomp
+  
   numbers_in_song = []
   songs.each_with_index do |index|
     numbers_in_song << index
